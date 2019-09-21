@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView android:layout_width="match_parent"
-    android:layout_height="match_parent"
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_margin="10dp"
-    android:onClick="operation"
     android:background="@color/colorAccent"
+    android:onClick="operation"
     app:cardCornerRadius="25dp"
-   app:cardElevation="10dp"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    app:cardElevation="10dp">
 
     <LinearLayout
         android:layout_width="match_parent"
